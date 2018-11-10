@@ -6,27 +6,42 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <title>Please sign in</title>
-<link href="/assets/favicon.png" rel="shortcut icon" type="image/x-icon">
-<link href="/assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="/assets/lib/layui/css/layui.css">
+<link rel="stylesheet" href="/assets/css/login.css">
 </head>
 <body>
-	<div class="container">
-		<form class="form-signin" method="post" th:action="@{/login}">
-			<h2 class="form-signin-heading">Please sign in</h2>
-			<p>
-				<label for="username" class="sr-only">Username</label>
-				<input
-					type="text" id="username" name="username" class="form-control"
-					placeholder="Enter Username" required autofocus>
-			</p>
-			<p>
-				<label for="password" class="sr-only">Password</label>
-				<input
-					type="password" id="password" name="password" class="form-control"
-					placeholder="Enter Password" required>
-			</p>
-			<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-		</form>
-	</div>
+<div class="layui-layout login">
+<form class="layui-form layui-form-pane" method="post" th:action="@{/login}">
+  <div class="layui-form-item">
+    <label class="layui-form-label layui-icon layui-icon-username login-label"></label>
+    <div class="layui-input-inline login-input">
+      <input type="text" name="username" required  lay-verify="required" placeholder="Enter Username" autocomplete="off" class="layui-input">
+    </div>
+  </div>
+  <div class="layui-form-item">
+    <label class="layui-form-label layui-icon layui-icon-password login-label"></label>
+    <div class="layui-input-inline login-input">
+      <input type="password" name="password" required lay-verify="required" placeholder="Enter Passsword" autocomplete="off" class="layui-input">
+    </div>
+  </div>
+  <div class="layui-form-item">
+    <div class="layui-input-inline">
+	  <input type="checkbox" name="remenber" title="Remember me" lay-skin="primary" checked>
+    </div>
+    <div class="layui-input-block">
+      <button class="layui-btn" lay-submit lay-filter="formDemo">Sign in</button>
+    </div>
+  </div>
+</form>
+</div>
+<script src="/assets/lib/layui/layui.js"></script>
+<script>
+//JavaScript代码区域
+layui.use(['element', 'form'], function(){
+  var element = layui.element;
+  var form = layui.form;
+  
+});
+</script>
 </body>
 </html>

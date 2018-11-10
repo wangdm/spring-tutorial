@@ -1,0 +1,14 @@
+.login{
+	text-align:center;
+	margin:0 auto;
+	margin-top: 200px;
+	width: 300px;
+}
+
+.layui-form-pane .login-label{
+	width: 50px;
+}
+
+.layui-form-item .login-input{
+	width: 240px;
+}
