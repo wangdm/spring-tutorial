@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bean:beans xmlns="http://www.springframework.org/schema/security"
+    xmlns:bean="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
+
+    <http pattern="/loginPage" security="none"></http>
+
+    <http auto-config="true" use-expressions="true">
+        <intercept-url pattern="/*" access="hasRole('ROLE_USER')" />
+        <form-login login-page="/loginPage" login-processing-url="/login" always-use-default-target="true"
+            default-target-url="/welcome" authentication-failure-url="/loginPage?error=error" />
+            <csrf disabled="true"/>
+    </http>
+    <authentication-manager alias="authenticationManager">
+        <authentication-provider>
+            <user-service>
+                <user authorities="ROLE_USER" name="guest" password="guest" />
+            </user-service>
+        </authentication-provider>
+    </authentication-manager>
+
+</bean:beans>
