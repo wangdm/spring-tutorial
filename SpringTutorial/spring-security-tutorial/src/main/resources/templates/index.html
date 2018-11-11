@@ -11,12 +11,12 @@
   <div class="layui-header">
     <div class="layui-logo">XinXinagACS</div>
     <!-- 头部区域（可配合layui已有的水平导航） -->
-    <ul class="layui-nav layui-layout-left">
-      <li class="layui-nav-item"><a href="">员工管理</a></li>
-      <li class="layui-nav-item"><a href="">访客管理</a></li>
-      <li class="layui-nav-item"><a href="">区域设备</a></li>
-      <li class="layui-nav-item"><a href="">考情系统</a></li>
-      <li class="layui-nav-item"><a href="">系统设置</a></li>
+    <ul class="layui-nav layui-layout-left" lay-filter="mainmenu">
+      <li class="layui-nav-item layui-this"><a href="javascript:;" id="main1">员工管理</a></li>
+      <li class="layui-nav-item"><a href="javascript:;" id="main2">访客管理</a></li>
+      <li class="layui-nav-item"><a href="javascript:;" id="main3">区域设备</a></li>
+      <li class="layui-nav-item"><a href="javascript:;" id="main4">考情系统</a></li>
+      <li class="layui-nav-item"><a href="javascript:;" id="main6">系统设置</a></li>
     </ul>
     <ul class="layui-nav layui-layout-right">
       <li class="layui-nav-item">
@@ -33,9 +33,9 @@
   </div>
   
   <div class="layui-side layui-bg-black">
-    <div class="layui-side-scroll">
+    <div class="layui-side-scroll" id="sidemenu">
       <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
-      <ul class="layui-nav layui-nav-tree"  lay-filter="test">
+      <ul class="layui-nav layui-nav-tree"  lay-filter="sidemenu">
         <li class="layui-nav-item layui-nav-itemed">
           <a class="" href="javascript:;">所有商品</a>
           <dl class="layui-nav-child">
@@ -84,11 +84,56 @@
   </div>
 </div>
 <script src="/assets/lib/layui/layui.js"></script>
+<script id="sidemenutpl" type="text/html">
+  <ul class="layui-nav layui-nav-tree"  lay-filter="sidemenu">
+  {{#  layui.each(d, function(index, item){ }}
+    <li class="layui-nav-item">
+      <a class="" href="javascript:;">{{ item.name }}</a>
+        <dl class="layui-nav-child">
+  		{{#  layui.each(item.children, function(index, child){ }}
+          <dd><a href="javascript:;">{{ child.name }}</a></dd>
+  		{{#  }); }}
+		</dl>
+  {{#  }); }}
+  </ul>
+</script>
 <script>
 //JavaScript代码区域
-layui.use('element', function(){
+layui.use(['element','laytpl'], function(){
   var element = layui.element;
+  var laytpl = layui.laytpl;
   
+  element.on('nav(mainmenu)', function(elem){
+	  console.log(elem); //得到当前点击的DOM对象
+	  data = data1;
+	 	laytpl(getTpl).render(data, function(html){
+	 		  view.innerHTML = html;
+	 		});
+	 		element.render('nav');
+	});
+  
+  var data1 = [{ //数据
+			  "name":"部门设置1",
+			  "children":[{"name":"弹层"},{"name":"aaa"}]
+		},{
+			  "name":"员工管理1",
+			  "children":[{"name":"弹层1"},{"name":"bbb"}]
+		}];
+  
+  var data = [{ //数据
+			  "name":"部门设置",
+			  "children":[{"name":"弹层"},{"name":"aaa"}]
+		},{
+			  "name":"员工管理",
+			  "children":[{"name":"弹层1"},{"name":"bbb"}]
+		}];
+  
+	var getTpl = sidemenutpl.innerHTML;
+	var view = document.getElementById('sidemenu');
+ 	laytpl(getTpl).render(data, function(html){
+	  view.innerHTML = html;
+	});
+	element.render('nav');
 });
 </script>
 </body>
