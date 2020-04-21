@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-amqp-tutorial/spring-amqp-tutorial.iml" filepath="$PROJECT_DIR$/spring-amqp-tutorial/spring-amqp-tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-tutorial/spring-boot-tutorial.iml" filepath="$PROJECT_DIR$/spring-boot-tutorial/spring-boot-tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-amqp-tutorial/spring-boot-tutorial (1).iml" filepath="$PROJECT_DIR$/spring-amqp-tutorial/spring-boot-tutorial (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-tutorial/spring-security-tutorial.iml" filepath="$PROJECT_DIR$/spring-security-tutorial/spring-security-tutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-tutorial.iml" filepath="$PROJECT_DIR$/.idea/spring-tutorial.iml" />
     </modules>
   </component>

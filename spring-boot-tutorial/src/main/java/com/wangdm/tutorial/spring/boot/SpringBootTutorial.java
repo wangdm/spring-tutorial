@@ -1,14 +1,14 @@
-package com.wangdm.tutorial.springsecurity;
+package com.wangdm.tutorial.spring.boot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringSecurityTutorial {
+public class SpringBootTutorial {
 
 	public static void main(String[] args) {
 		
-		SpringApplication.run(SpringSecurityTutorial.class, args);
+		SpringApplication.run(SpringBootTutorial.class, args);
 	}
 
 }

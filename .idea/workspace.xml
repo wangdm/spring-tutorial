@@ -2,335 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e8b1ee9-40e9-4bb8-8c84-32667bf75d30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/spring-tutorial.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-tutorial/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-tutorial/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-tutorial/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-tutorial/src/main/resources/static/assets/js/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-tutorial/src/main/resources/static/assets/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-tutorial/src/main/resources/static/assets/js/socket.io.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-tutorial/src/main/resources/static/assets/js/socket.io.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-tutorial/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring-security/SpringSecurityTutorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring-security/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring-security/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring-security/security/CustomPasswordEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring-security/security/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring-security/security/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/spring-security.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/js/socket.io.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/js/socket.io.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/jquery/js/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/jquery/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/static/assets/lib/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NettyTutorial/netty-tutorial-client/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NettyTutorial/netty-tutorial-client/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NettyTutorial/netty-tutorial-client/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NettyTutorial/netty-tutorial-client/src/main/java/com/wangdm/tutorial/netty/client/ClientHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NettyTutorial/netty-tutorial-client/src/main/java/com/wangdm/tutorial/netty/client/NettyClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NettyTutorial/netty-tutorial-client/src/main/java/com/wangdm/tutorial/netty/client/NettyClientApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NettyTutorial/netty-tutorial-client/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NettyTutorial/netty-tutorial-server/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NettyTutorial/netty-tutorial-server/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NettyTutorial/netty-tutorial-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NettyTutorial/netty-tutorial-server/src/main/java/com/wangdm/tutorial/netty/server/NettyServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NettyTutorial/netty-tutorial-server/src/main/java/com/wangdm/tutorial/netty/server/NettyServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NettyTutorial/netty-tutorial-server/src/main/java/com/wangdm/tutorial/netty/server/ServerHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NettyTutorial/netty-tutorial-server/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootTutorial/spring-boot-tutorial/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootTutorial/spring-boot-tutorial/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootTutorial/spring-boot-tutorial/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootTutorial/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/springboot/SpringBootTutorial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootTutorial/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/springboot/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootTutorial/spring-boot-tutorial/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootTutorial/spring-boot-tutorial/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootTutorial/spring-boot-tutorial/src/main/resources/static/assets/js/jquery-3.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootTutorial/spring-boot-tutorial/src/main/resources/static/assets/js/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootTutorial/spring-boot-tutorial/src/main/resources/static/assets/js/socket.io.dev.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootTutorial/spring-boot-tutorial/src/main/resources/static/assets/js/socket.io.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootTutorial/spring-boot-tutorial/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/java/com/wangdm/tutorial/springsecurity/SpringSecurityTutorial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/java/com/wangdm/tutorial/springsecurity/config/WebMvcConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/java/com/wangdm/tutorial/springsecurity/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/java/com/wangdm/tutorial/springsecurity/security/CustomPasswordEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/java/com/wangdm/tutorial/springsecurity/security/CustomUserDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/java/com/wangdm/tutorial/springsecurity/security/WebSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/spring-security.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/js/socket.io.dev.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/js/socket.io.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/jquery/js/jquery-3.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/jquery/js/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/layui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/layui.mobile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/modules/code.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/modules/laydate/default/laydate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/modules/layer/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/modules/layer/default/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/font/iconfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/font/iconfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/font/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/font/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/10.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/11.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/12.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/13.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/14.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/15.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/16.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/17.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/18.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/19.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/20.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/21.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/22.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/23.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/24.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/25.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/26.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/27.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/28.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/29.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/30.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/31.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/33.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/34.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/35.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/36.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/37.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/38.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/39.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/40.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/41.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/42.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/43.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/44.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/45.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/46.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/47.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/48.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/49.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/50.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/51.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/52.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/53.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/54.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/55.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/56.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/57.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/58.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/59.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/60.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/61.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/62.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/63.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/64.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/65.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/66.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/67.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/68.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/69.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/70.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/71.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/images/face/9.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/code.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/colorpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/flow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/laydate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/layedit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/laypage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/laytpl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/mobile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/rate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/tree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/upload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/lay/modules/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/layui.all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/static/assets/lib/layui/layui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTutorial/spring-security-tutorial/src/main/resources/templates/login.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-amqp-tutorial/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-amqp-tutorial/spring-amqp-tutorial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-amqp-tutorial/src/main/java/com/wangdm/tutorial/spring/amqp/SpringAmqpTutorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-amqp-tutorial/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-tutorial/spring-boot-tutorial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/spring-security-tutorial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spring-tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spring-tutorial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-tutorial/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-tutorial/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/spring-boot/SpringSecurityTutorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring/security/SpringSecurityTutorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/spring-boot/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/spring/boot/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/spring-boot/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/spring/boot/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/spring-boot/security/CustomPasswordEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring/security/security/CustomPasswordEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/spring-boot/security/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring/security/security/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/spring-boot/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring/security/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-tutorial/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-tutorial/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring-security/SpringSecurityTutorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/spring/boot/SpringBootTutorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring-security/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring/security/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring-security/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring/security/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring-security/security/CustomPasswordEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring-security/security/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring-security/security/WebSecurityConfig.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -340,11 +39,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/wangdm/spring-tutorial.git" />
+      </set>
+    </option>
+  </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
         <option value="$PROJECT_DIR$/.idea" />
       </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1aquNzXfTfXJKOi0IqeE5bKSRZt" />
@@ -355,10 +68,41 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringSecurityTutorial">
+    <configuration name="SpringAmqpTutorial" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-amqp-tutorial" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangdm.tutorial.spring.amqp.SpringAmqpTutorial" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurityTutorial (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-security-tutorial" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangdm.tutorial.spring.security.SpringSecurityTutorial" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurityTutorial" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-tutorial" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangdm.tutorial.spring.boot.SpringSecurityTutorial" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -382,11 +126,86 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587475409112</updated>
-      <workItem from="1587475412615" duration="1114000" />
+      <workItem from="1587475412615" duration="1865000" />
+      <workItem from="1587477284434" duration="2062000" />
+      <workItem from="1587480126561" duration="435000" />
     </task>
+    <task id="LOCAL-00001" summary="tidy repository">
+      <created>1587476788157</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587476788157</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="tidy repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="tidy repository" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587477271965">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1587477271965" />
+    <state x="834" y="444" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587479634059">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="834" y="444" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1587479634059" />
+    <state x="130" y="27" width="1727" height="1041" key="CommitChangelistDialog2" timestamp="1587476787385">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="130" y="27" width="1727" height="1041" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1587476787385" />
+    <state x="247" y="111" width="1482" height="872" key="DiffContextDialog" timestamp="1587476764976">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="247" y="111" width="1482" height="872" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1587476764976" />
+    <state width="1807" height="270" key="GridCell.Tab.0.bottom" timestamp="1587480118999">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="270" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1587480118999" />
+    <state width="1807" height="270" key="GridCell.Tab.0.center" timestamp="1587480118996">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="270" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1587480118996" />
+    <state width="1807" height="270" key="GridCell.Tab.0.left" timestamp="1587480118995">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="270" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1587480118995" />
+    <state width="1807" height="270" key="GridCell.Tab.0.right" timestamp="1587480118997">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="270" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1587480118997" />
+    <state x="690" y="260" width="596" height="574" key="RollbackChangesDialog" timestamp="1587476700708">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="690" y="260" width="596" height="574" key="RollbackChangesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1587476700708" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587476791073">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1587476791073" />
+    <state x="328" y="136" width="1372" height="796" key="new project wizard" timestamp="1587479003856">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="328" y="136" width="1372" height="796" key="new project wizard/67.27.1853.1053@67.27.1853.1053" timestamp="1587479003856" />
   </component>
 </project>

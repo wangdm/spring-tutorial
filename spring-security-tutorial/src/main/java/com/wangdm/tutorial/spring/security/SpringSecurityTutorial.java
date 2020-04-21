@@ -1,4 +1,4 @@
-package com.wangdm.tutorial.springsecurity;
+package com.wangdm.tutorial.spring.security;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

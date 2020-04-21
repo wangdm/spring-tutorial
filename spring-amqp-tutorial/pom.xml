@@ -9,28 +9,19 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>spring-boot-tutorial</artifactId>
+	<artifactId>spring-amqp-tutorial</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Spring Boot Tutorial</name>
-	<url>http://tutorial.wangdm.cn/spring-boot-tutorial</url>
+	<name>Spring AMQP Tutorial</name>
+	<url>http://tutorial.wangdm.cn/spring-amqp-tutorial</url>
 
 	<dependencies>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-freemarker</artifactId>
-        </dependency>
 
 	</dependencies>
 
 	<build>
-		<finalName>spring-boot-tutorial</finalName>
+		<finalName>${project.artifactId}</finalName>
 
 		<plugins>
 			<plugin>

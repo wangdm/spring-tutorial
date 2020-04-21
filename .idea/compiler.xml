@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-tutorial" />
+        <module name="spring-security-tutorial" />
+        <module name="spring-amqp-tutorial" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-amqp-tutorial" target="1.8" />
+      <module name="spring-boot-tutorial" target="1.8" />
+      <module name="spring-security-tutorial" target="1.8" />
+      <module name="spring-tutorial" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-amqp-tutorial" options="-parameters" />
+      <module name="spring-boot-tutorial" options="-parameters" />
+      <module name="spring-security-tutorial" options="-parameters" />
+    </option>
+  </component>
+</project>

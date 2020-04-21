@@ -1,4 +1,4 @@
-package com.wangdm.tutorial.springsecurity.security;
+package com.wangdm.tutorial.spring.security.security;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;

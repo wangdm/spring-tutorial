@@ -1,4 +1,4 @@
-package com.wangdm.tutorial.springsecurity.security;
+package com.wangdm.tutorial.spring.security.security;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

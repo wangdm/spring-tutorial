@@ -1,4 +1,4 @@
-package com.wangdm.tutorial.springsecurity.security;
+package com.wangdm.tutorial.spring.security.security;
 
 import java.util.ArrayList;
 import java.util.List;

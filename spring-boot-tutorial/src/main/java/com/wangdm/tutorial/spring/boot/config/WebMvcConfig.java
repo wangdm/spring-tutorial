@@ -1,4 +1,4 @@
-package com.wangdm.tutorial.springsecurity.config;
+package com.wangdm.tutorial.spring.boot.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
