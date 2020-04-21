@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e8b1ee9-40e9-4bb8-8c84-32667bf75d30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-amqp-tutorial/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-amqp-tutorial/spring-amqp-tutorial.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-amqp-tutorial/src/main/java/com/wangdm/tutorial/spring/amqp/SpringAmqpTutorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-amqp-tutorial/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-tutorial/spring-boot-tutorial.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-tutorial/spring-security-tutorial.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/spring-tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spring-tutorial.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-tutorial/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-tutorial/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/spring-boot/SpringSecurityTutorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring/security/SpringSecurityTutorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/spring-boot/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/spring/boot/config/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/spring-boot/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/spring/boot/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/spring-boot/security/CustomPasswordEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring/security/security/CustomPasswordEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/spring-boot/security/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring/security/security/CustomUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/spring-boot/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring/security/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-tutorial/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-tutorial/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring-security/SpringSecurityTutorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial/spring/boot/SpringBootTutorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring-security/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring/security/config/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring-security/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring/security/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring-security/security/CustomPasswordEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring-security/security/CustomUserDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-tutorial/src/main/java/com/wangdm/tutorial/spring-security/security/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-amqp-tutorial/src/main/java/com/wangdm/tutorial/spring/amqp/SpringAmqpTutorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-amqp-tutorial/src/main/java/com/wangdm/tutorial/spring/amqp/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +12,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -81,28 +56,33 @@
       <recent name="$PROJECT_DIR$/spring-boot-tutorial/src/main/java/com/wangdm/tutorial" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringSecurityTutorial">
+  <component name="RunManager" selected="Spring Boot.SpringBootTutorial">
     <configuration name="SpringAmqpTutorial" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-amqp-tutorial" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangdm.tutorial.spring.amqp.SpringAmqpTutorial" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangdm.tutorial.spring.amqp.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringSecurityTutorial (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-security-tutorial" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangdm.tutorial.spring.security.SpringSecurityTutorial" />
+    <configuration name="SpringBootTutorial" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-tutorial" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangdm.tutorial.spring.boot.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringSecurityTutorial" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-boot-tutorial" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangdm.tutorial.spring.boot.SpringSecurityTutorial" />
+      <module name="spring-security-tutorial" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangdm.tutorial.spring.security.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringAmqpTutorial" />
+      <item itemvalue="Spring Boot.SpringBootTutorial" />
+      <item itemvalue="Spring Boot.SpringSecurityTutorial" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -128,7 +108,7 @@
       <updated>1587475409112</updated>
       <workItem from="1587475412615" duration="1865000" />
       <workItem from="1587477284434" duration="2062000" />
-      <workItem from="1587480126561" duration="435000" />
+      <workItem from="1587480126561" duration="590000" />
     </task>
     <task id="LOCAL-00001" summary="tidy repository">
       <created>1587476788157</created>
@@ -137,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587476788157</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tidy repository;&#10;add spring-amqp-tutorial">
+      <created>1587480587047</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587480587047</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,21 +147,22 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="tidy repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="tidy repository" />
+    <MESSAGE value="tidy repository;&#10;add spring-amqp-tutorial" />
+    <option name="LAST_COMMIT_MESSAGE" value="tidy repository;&#10;add spring-amqp-tutorial" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587477271965">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587480715536">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1587477271965" />
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1587480715536" />
     <state x="834" y="444" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587479634059">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="834" y="444" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1587479634059" />
-    <state x="130" y="27" width="1727" height="1041" key="CommitChangelistDialog2" timestamp="1587476787385">
+    <state x="130" y="27" width="1727" height="1041" key="CommitChangelistDialog2" timestamp="1587480586785">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="130" y="27" width="1727" height="1041" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1587476787385" />
+    <state x="130" y="27" width="1727" height="1041" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1587480586785" />
     <state x="247" y="111" width="1482" height="872" key="DiffContextDialog" timestamp="1587476764976">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -199,10 +187,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="690" y="260" width="596" height="574" key="RollbackChangesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1587476700708" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587476791073">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587480593249">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1587476791073" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1587480593249" />
     <state x="328" y="136" width="1372" height="796" key="new project wizard" timestamp="1587479003856">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
